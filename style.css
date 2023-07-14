@@ -7,6 +7,17 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
+    transition: opacity .15s;
+}
+
+.Subscribe-button:hover {
+  opacity: 0.8;
+
+}
+
+.Subscribe-button:active {
+opacity: 0.6;
+
 }
 .Join-button {
   background-color: white;
@@ -19,7 +30,21 @@
   border-radius: 2px;
   cursor: pointer;
   margin-right: 8px;
+  transition: background-color .15s , color .15s
 }
+
+.Join-button:hover {
+  background-color:rgb(51, 119, 255) ;
+  color: white;
+
+}
+
+.Join-button:active {
+  opacity: .7;
+}
+
+
+
 .Tweet-button {
   background-color: rgb(0, 183, 255);
   border: none;
@@ -30,8 +55,16 @@
   cursor: pointer;
   font-weight: bold;
   font-size: 15px;
+  transition: box-shadow 0.15s;
+  
 
 }
+.Tweet-button:hover {
+  box-shadow: 5px 5px 10px 
+  rgba(0, 0, 0, 0.15);
+}
+
+
 .Uber-button {
   background-color: black;
   color: white;
@@ -41,8 +74,14 @@
   width: 110px;
   font-size: 12px ;
   cursor: pointer;
+  transition: opacity .15s;
 
 }
+.Uber-button:hover {
+  opacity: .8;
+}
+
+
 .Amazon-button {
   background-color: rgb(255, 216, 20);
   color: black;
@@ -53,7 +92,13 @@
   font-size: 15px;
   font-style: bold;
   cursor: pointer;
+  opacity: 0.9;
+  transition: opacity .15s;
   
+}
+
+.Amazon-button:hover {
+  opacity: 1;
 }
 .github-button {
   background-color: rgb(46, 164, 79);
@@ -65,6 +110,10 @@
  font-size: 15px;
  font-weight: bold;
  cursor: pointer;
+ transition: box-shadow .15s;
+}
+.github-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 .bootstrap-1 {
   background-color: rgb(121, 82, 179);
@@ -75,6 +124,10 @@
  border-radius: 3px;
  cursor: pointer;
  font-size: 12px;
+ opacity: .9;
+}
+.bootstrap-1:hover {
+  opacity: 1;
 }
 .bootstrap-2 {
   background-color: rgb(254, 250, 250, 0.989);
@@ -87,6 +140,12 @@
   color: rgb(104, 76, 146);
   font-weight: bold;
   cursor: pointer;
+  transition: background-color .20s , color .20s;
+
+}
+.bootstrap-2:hover {
+  background-color: rgba(149, 126, 183, 0.788) ;
+  color:rgb(254, 250, 250, 0.989) ;
 }
 .linkedin-1 {
   background-color: rgb(10, 102, 194);
@@ -97,6 +156,12 @@
   width: 220px;
   border-radius: 20px;
   cursor: pointer;
+  transition: background-color .2s;
+
+}
+
+.linkedin-1:hover {
+  background-color: rgba(40, 40, 136, 0.922);
 
 }
 .linkedin-2 {
@@ -111,8 +176,13 @@
   font-weight: bold;
   border-radius: 18px;
   cursor: pointer;
+  transition: border-width .2s , background-color .2s;
 
 
+}
+.linkedin-2:hover {
+  border-width: 2px;
+  background-color: rgb(215, 218, 251);
 }
 
 
